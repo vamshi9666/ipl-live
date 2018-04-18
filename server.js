@@ -7,7 +7,7 @@ app.get('/',(req,res)=>{
     message:"ipl scores should code here"
   })
 })
-
+console.log("heroku")
 
 app.listen(port,()=>{
   console.log("listening on port "+port);

@@ -5,6 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon server.js",
+    "prod": "NODE_ENV=production node server.js",
+    "postinstall": "node server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "vamshi9666",
